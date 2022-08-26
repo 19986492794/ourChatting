@@ -372,7 +372,8 @@
         token:"",
         deviceType:type,
         audioSrc:BELL_URL,
-        socketURL:window._HOST||'',
+        // socketURL:window._HOST||'',
+        socketURL:'https://ourchat-server.19986492794.repl.co',
         socket:null,
         isConnect:false
       }
